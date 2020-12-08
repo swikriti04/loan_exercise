@@ -9,6 +9,10 @@
 5. Create a new plain text file in the root folder of the forked project. And make the file name in the format of "your full name", e.g. **Mark Leon**.
 6. Notify the code assignment is done or you can contact your employer to notify the same (we would be regularly checking the repo for any checkins).
 
+OR
+
+Send the file/s to the Employer and you may ask them to send the file to the concerned point of contact in IBM. 
+
 ## Database Details: MySql
 ```
 Database type : MySql
