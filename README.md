@@ -24,11 +24,12 @@ password : passw0rd
 ```
 
 ## Code assignment details
-
-* Create a python based application/file (e.g test.py)
-* Create a connection to the database details provided above.
-* Load the data and perform the following operation/result
-  * For column **term** add extra 12 months to all **id** with **term 36 month**  and **loan_status** is not equal to _Fully Paid_
-  * For column **int_rate** increase the intrest by 2% and recalculate the **installament** to be continued.
-* Ouput the result to a csv file
-* Create a requirment.txt file with all dependencies used. 
+* Create a Python application/file/script(s) (e.g test.py).
+* Using Python, create a connection to the MySQL database using the datanase connection details as provided above.
+* Load the data from the q2c database and perform the following operation to generate your result:
+  * Update the values inside column **term** by adding extra 12 months across all entries having **id** with **term** is equal to = '36 months' and **loan_status** is not equal to 'Fully Paid'
+  * Create a new colum **int_rates_add_2pct**. Across each entry, the values inside the new column is equal to the value in **int_rate** plus and addition of 2% point.
+  * For each entry, replace and recalculate the corresponding value in the **installament** by using the new interest rate in **int_rates_add_2pct**.
+* Ouput the result into a csv file and submit the file.
+* Please also submit the Python script(s) used in the coding assignment. 
+* Create a requirement.txt file with all dependencies used. 
