@@ -11,7 +11,7 @@
 
 OR
 
-1. Send the file/s to the interviwer or recruiter and you may ask them to share the file to the concerned point of contact/hiring team. 
+1. Send the file/s to the interviewer or recruiter and you may ask them to share the file to the concerned point of contact/hiring team. 
 
 ## Database Details: MySql
 ```
