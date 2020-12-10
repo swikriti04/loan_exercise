@@ -23,7 +23,7 @@ Username : q2c
 password : passw0rd
 ```
 
-## Code assignment details
+## Code assignment instruction
 * Create a Python application/file/script(s) (e.g test.py).
 * Using Python, create a connection to the MySQL database using the datanase connection details as provided above.
 * Load the data from the q2c database and perform the following operation to generate your result:
