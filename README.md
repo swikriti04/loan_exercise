@@ -29,7 +29,14 @@ password : passw0rd
 * Load the data from the q2c database and perform the following operation to generate your result:
   * Update the values inside column **term** by adding extra 12 months across all entries having **id** with **term** is equal to = '36 months' and **loan_status** is not equal to 'Fully Paid'
   * Create a new colum **int_rates_add_2pct**. Across each entry, the values inside the new column is equal to the value in **int_rate** plus and addition of 2% point.
-  * For each entry, replace and recalculate the corresponding value in the **installament** by using the new interest rate in **int_rates_add_2pct**.
+  * For each entry, replace and recalculate the corresponding value in the **installment** by using the new interest rate in **int_rates_add_2pct**.
 * Ouput the result into a csv file and submit the file.
 * Please also submit the Python script(s) used in the coding assignment. 
 * Create a requirement.txt file with all dependencies used. 
+
+## Optional
+In addition to the code assignment instruction above, you may also perform the following as bonus:
+ 
+- Generate a model to predict which entry will have loan_status equals to 'Fully Paid'.
+- Please share the notebook(s)/python script(s) that you created to generate the above.
+- For each major step involved, please explain the reason why you are implementing the step.
