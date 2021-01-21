@@ -15,11 +15,11 @@ OR
 
 ## Database Details: MySql
 ```
-Database type : MySql
-host: sl-aus-syd-1-portal.5.dblayer.com
-port: 22245
-dbname: q2c
-Username : q2c
+Database type : Postgres
+host: c00a2be7-ff13-4347-bfae-030defa3cce9.bkvfvtld0lmh0umkfi70.databases.appdomain.cloud
+port: 32182
+dbname: ibmclouddb
+Username : q2c_user
 password : passw0rd
 ```
 
