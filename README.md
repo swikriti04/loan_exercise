@@ -15,7 +15,7 @@ OR
 
 ## Database Details: MySql
 ```
-Database type : Postgres
+Database type : PostgresSQL
 host: c00a2be7-ff13-4347-bfae-030defa3cce9.bkvfvtld0lmh0umkfi70.databases.appdomain.cloud
 port: 32182
 dbname: ibmclouddb
