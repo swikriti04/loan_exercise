@@ -26,7 +26,7 @@ password : passw0rd
 ## Code assignment instruction
 * Create a Python application/file/script(s) (e.g test.py).
 * Using Python, create a connection to the MySQL database using the database connection details as provided above.
-* Load the data from the q2c database (schema name : q2c | table name : loan_Data) and perform the following operation to generate your result:
+* Load the data from the q2c database (schema name : q2c | table name : loan_exercise) and perform the following operation to generate your result:
   * Update the values inside column **term** by adding extra 12 months across all entries having **id** with **term** is equal to = '36 months' and **loan_status** is not equal to 'Fully Paid'
   * Create a new colum **int_rates_add_2pct**. Across each entry, the values inside the new column is equal to the value in **int_rate** plus and addition of 2% point.
   * For each entry, replace and recalculate the corresponding value in the **installment** by using the new interest rate in **int_rates_add_2pct**.
