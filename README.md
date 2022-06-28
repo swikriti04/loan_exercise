@@ -27,8 +27,8 @@ password : passw0rd
 * Create a Python application/file/script(s) (e.g test.py).
 * Using Python, create a connection to the postgres database using the database connection details as provided above.
 * Load the data from the q2c database (schema name : public | table name : loan_data) and perform the following operation to generate your result:
-  * Create a new column called **new term**, for the records with **term** is equal to '36 months' and **loan_status** is not equal to 'Fully Paid' update **new term** with existing value of (**term** + 12 months) 
-  * Create a new column called **int_rates_add_2pct**, for every record udpate new column(**int_rates_add_2pct**) with value of (**int_rate** + 2%).
+  * Create a new column called **new term**, for the records with **term** is equal to '36 months' and **loan_status** is not equal to 'Fully Paid' update **new term** coumn with existing value of (**term** + 12 months) 
+  * Create a new column called **int_rates_add_2pct**, for every record udpate **int_rates_add_2pct** column with existing value of (**int_rate** + 2%).
 * Ouput the result into a csv file and submit the file.
 * Please also submit the Python script(s) used in the coding assignment. 
 * Create a requirement.txt file with all dependencies used. 
