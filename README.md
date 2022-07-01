@@ -39,3 +39,5 @@ In addition to the code assignment instruction above, you may also perform the f
 - Generate a model to predict which entry will have loan_status equals to 'Fully Paid'.
 - Please share the notebook(s)/python script(s) that you created to generate the above.
 - For each major step involved, please explain the reason why you are implementing the step.
+
+Note : the account q2c_user only have the read access. The operation should be performed on dataframe and output the result to csv file. 
