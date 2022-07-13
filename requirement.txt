@@ -1,0 +1,12 @@
+Packages & Libraries:
+
+1. psycopg2 (For Postgres)
+2. pandas (For converting into dataframe)
+3. pyodbc (For writing queries under pandas)
+
+Installation:
+
+1. Postgresql
+2. Pandas
+
+
